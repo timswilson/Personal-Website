@@ -90,7 +90,7 @@
      <div class="myBGPics">
       <img class="thumbnail img-responsive aboutMePics"  width="200" src="/timswilson/wp-content/themes/bootstrap-basic/img/aboutMePage/Bryan_College_Logo_(full_size).png" alt="Bryan College Logo">
      </div>
-     
+
 		 <div class="myBGPics">
      <img class="thumbnail img-responsive aboutMePics"  width="200" src="/timswilson/wp-content/themes/bootstrap-basic/img/aboutMePage/suitelaunch_logo_w-tag-web.png" alt="SuiteLaunch Logo">
 		 </div>
@@ -111,7 +111,7 @@
           <div class="visible-sm-block visible-xs-block"><img class="thumbnail img-responsive aboutMePics"  width="200" src="/timswilson/wp-content/themes/bootstrap-basic/img/aboutMePage/PMILogo_reg.jpg" alt="Precept Logo"></div>
           <p>​In August 2015 I accepted a job at my current employer, Precept Ministries International, as their ERP & CRM administrator. At Precept I took ownership over their NetSuite instance supporting over 70 end users.</p>
           <p>​In 2016 Precept decided to move its CRM & Marketing functions over to Salesforce. I worked on a team to implement Salesforce as well as develop the integrations which would allow data to flow between our new CRM system and NetSuite. I received my Salesforce certifications and now perform admin and development duties across both our CRM and ERP systems.</p>
-          <p>​I get to work with several APIs to develop custom solutions using Salesforce's APEX programming language as well as NetSuite's SuiteScript. To date, I have written over forty custom scripts and maintain many more that were written by vendors.</p>
+          <p>​I get to work with several APIs to develop custom solutions using Salesforce's APEX programming language as well as NetSuite's SuiteScript. I have also built web apps using Node and Azure's PaaS. To date, I have written over fifty custom scripts and maintain many more that were written by vendors.</p>
          </div>
 		 </div>
     </div>
