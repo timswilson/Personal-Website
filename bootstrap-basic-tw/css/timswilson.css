@@ -1,0 +1,444 @@
+/*
+*
+* Main theme file for timswilson
+*
+*/
+
+
+/*
+*
+*  Base Style
+*
+*/
+
+/* Flatten boostrap */
+.well, .navbar-inner, .popover, .btn, .tooltip, input, select, textarea, pre, .progress, .modal, .add-on, .alert, .table-bordered, .nav>.active>a, .dropdown-menu, .tooltip-inner, .badge, .label, .img-polaroid {
+ 	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
+	border-collapse: collapse !important;
+	background-image: none !important;
+
+}
+
+#main-content {
+	display:inline;
+}
+
+#main-content  a {
+	border-bottom: 1px solid rgba(74,74,74,.2);
+    color: rgba(74,74,74,.9);
+    display: inline;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.btn-primary {
+background-color: #3E5161;
+}
+
+.noBorder {
+border:none !important;
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+a {
+font-family: 'Lato', sans-serif;
+}
+
+/*
+*
+*  Header
+*
+*/
+
+.navbar-brand {
+padding: 8px 0px 0px 0px;
+margin-left:0px !important;
+}
+
+.navbar-light .navbar-nav .active a{
+color: rgba(0,0,0,.8);
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+  color: rgba(0,0,0,.8);
+  background: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.6);
+    background: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.4);
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+}
+.navbar-toggle:hover {
+  background: transparent !important;
+}
+.navbar-toggle .icon-bar {
+  width: 22px;
+  transition: all 0.2s;
+}
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+.icon-bar {
+background:#373a3c;
+}
+
+
+
+/*
+*
+*  About Me
+*
+*/
+
+    html,body, #content {height:100%;}
+    body{font-size:16px;}
+
+
+   .flexContainer{
+	  /* margin-top:-50px; */
+   min-height:100%;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+    resize: vertical;
+  overflow: auto;
+   }
+
+
+
+   .flexWrapper{
+	   min-height:100%;
+	   display: flex;
+  flex-direction: column;
+  justify-content: center;
+    resize: vertical;
+  overflow: auto;
+   }
+
+
+    .introduction {
+    text-align: center;
+    }
+
+    /* this is used to hide the curser in the typeIt section */
+    .is-hidden {
+  display: none !important;
+}
+
+    #imTim {
+    font-size: 500%;
+    }
+
+   .morphext > .animated {
+    display: inline-block;
+}
+#aboutMeQuote {
+margin-top: 40px;
+}
+
+.loveWhatIDoWrapper{
+background:#3E5161;
+padding-top:50px;
+padding-bottom:50px;
+}
+
+
+.loveWhatIDo{
+text-align:center;
+color:#fff;
+
+}
+
+.loveWhatIDo > h1 {
+font-size:400%;
+margin-bottom: 40px;
+}
+
+#randomGifButton{
+	margin-top:20px;
+}
+
+.aboutMeWrapper{
+background-color:#edeeef;
+padding-top:50px;
+padding-bottom:50px;
+}
+
+.myBackgroundWrapper{
+padding-top:50px;
+padding-bottom:50px;
+}
+
+#giphyme{
+color:black;
+}
+
+.giphyMeAnimate{
+  opacity: 0;
+transform: rotate(20deg) translateX(50px) scale(0.5, 0.5);
+  transition: all 1s ease-out;
+}
+
+.aboutMePics {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease-out;
+}
+
+.myBGPics {
+  opacity: 0;
+  transform: translateX(-75px);
+  transition: all 1s ease-out;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0) translateX(0) rotate(0deg) scale(1, 1);
+}
+
+.easterEgg{
+padding:40px;
+color:black;
+}
+
+
+/*
+*
+*  Blog
+*
+*/
+
+.entry-title a {
+color: rgb(48, 49, 51) !important;
+font-weight: 600 !important;
+border-bottom:none !important;
+font-size: 20px;
+}
+
+.entry-title {
+margin-top:0px;
+}
+
+.dateCategory a{
+color: rgb(48, 49, 51) !important;
+font-weight: 600 !important;
+border-bottom:none !important;
+font-size: 13px;
+}
+
+.dateCategory{
+color: rgb(48, 49, 51) !important;
+font-weight: 600 !important;
+border-bottom:none !important;
+font-size: 13px;
+font-family: 'Lato', sans-serif;
+}
+
+.entry-content {
+color: rgb(119, 119, 119);
+}
+
+.more-link{
+color: rgb(48, 49, 51) !important;
+font-weight: 600 !important;
+border-bottom:none !important;
+font-size: 15px;
+text-align:right;
+display:block;
+}
+
+.backToBlog a{
+color: rgb(48, 49, 51) !important;
+font-weight: 600 !important;
+border-bottom:none !important;
+font-size: 13px;
+}
+
+#sb_instagram {
+margin-bottom: 10px;
+}
+
+.instaSidebarLogo{
+text-align:center;
+text-decoration:none;
+}
+
+.instaSidebarLogo a{
+border-bottom:none !important;
+}
+
+.required {
+  color:#222;
+}
+
+/*
+*
+*  Resume
+*
+*/
+
+#contactInformation {
+  margin-bottom: 30px;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.bs-docs-sidebar {
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* all links */
+.bs-docs-sidebar .nav>li>a {
+    color: #999;
+    border-left: 2px solid transparent;
+    padding: 4px 20px;
+    font-size: 13px;
+    font-weight: 400;
+	border-bottom:none !important;
+}
+
+/* nested links */
+.bs-docs-sidebar .nav .nav>li>a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 12px;
+}
+
+/* active & hover links */
+.bs-docs-sidebar .nav>.active>a,
+.bs-docs-sidebar .nav>li>a:hover,
+.bs-docs-sidebar .nav>li>a:focus {
+    color: #999c;
+    text-decoration: none;
+    background-color: transparent;
+    border-left-color: #999;
+}
+/* all active links */
+.bs-docs-sidebar .nav>.active>a,
+.bs-docs-sidebar .nav>.active:hover>a,
+.bs-docs-sidebar .nav>.active:focus>a {
+    font-weight: 700;
+}
+/* nested active links */
+.bs-docs-sidebar .nav .nav>.active>a,
+.bs-docs-sidebar .nav .nav>.active:hover>a,
+.bs-docs-sidebar .nav .nav>.active:focus>a {
+    font-weight: 500;
+}
+
+/* hide inactive nested list */
+.bs-docs-sidebar .nav ul.nav {
+    display: none;
+}
+/* show active nested list */
+.bs-docs-sidebar .nav>.active>ul.nav {
+    display: block;
+}
+
+/*
+*
+*  Footer
+*
+*/
+
+footer{
+color:white;
+}
+
+.footerWrapper1{
+background-color:#577187;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+.footerWrapper2{
+background-color:#3E5161;
+padding-top:50px;
+padding-bottom:50px;
+}
+
+#footerSocialIcons i{
+margin: auto 5px;
+}
+
+#footerSocialIcons a{
+color:#d1d1d1;
+}
+
+#footerSocialIcons a:hover{
+color:#fff;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  #imTim{
+  font-size: 315%;
+  }
+  .introduction h2{
+    font-size:22px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
