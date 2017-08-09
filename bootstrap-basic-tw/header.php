@@ -1,21 +1,21 @@
 <?php
    /**
     * The theme header
-    * 
+    *
     * @package bootstrap-basic
     */
    ?>
 <!DOCTYPE html>
-<!--[if lt IE 7]>  
+<!--[if lt IE 7]>
 <html class="no-js lt-ie9 lt-ie8 lt-ie7" <?php language_attributes(); ?>>
    <![endif]-->
-   <!--[if IE 7]>     
+   <!--[if IE 7]>
    <html class="no-js lt-ie9 lt-ie8" <?php language_attributes(); ?>>
       <![endif]-->
-      <!--[if IE 8]>     
+      <!--[if IE 8]>
       <html class="no-js lt-ie9" <?php language_attributes(); ?>>
          <![endif]-->
-         <!--[if gt IE 8]><!--> 
+         <!--[if gt IE 8]><!-->
          <html class="no-js" <?php language_attributes(); ?>>
             <!--<![endif]-->
             <head>
@@ -33,7 +33,7 @@
                <p class="ancient-browser-alert">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a>.</p>
                <![endif]-->
                <div class="container">
-                  <?php do_action('before'); ?> 
+                  <?php do_action('before'); ?>
                   <header role="banner">
                      <nav class="navbar navbar-light" role="navigation">
                         <div class="container-fluid">
@@ -49,7 +49,6 @@
                            <div id="navbar" class="navbar-collapse collapse">
                               <ul class="nav navbar-nav">
                                  <li><a class="nav-link" href="/">About Me</a></li>
-                                 <li><a class="nav-link" href="/blog/">Blog</a></li>
                                  <li><a class="nav-link" href="/resume/">Resume</a></li>
                                  <li><a class="nav-link" href="/contact/">Contact</a></li>
                               </ul>
@@ -60,6 +59,5 @@
                      </nav>
                <!--.main-navigation-->
                </header>
-			   </div> 
+			   </div>
 			   <div id="main-content">
-           
