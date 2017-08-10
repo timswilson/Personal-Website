@@ -109,7 +109,7 @@
           <p>​In December 2013 I accepted a job as a NetSuite Administrator at SuiteLaunch, LLC. SuiteLaunch assists small to mid-sized companies with implementing and customizing NetSuite to meet their specific business needs.</p>
           <p>​In the beginning, I assisted clients with configuring the native software, migrating data, training employees, as well as creating custom objects, fields, and reports. Later in the role, I worked on extending NetSuite through the use of automation, and scripts; I developed solutions using JavaScript along with NetSuite's SuiteScript API.</p>
           <div class="visible-sm-block visible-xs-block"><img class="thumbnail img-responsive aboutMePics"  width="200" src="/timswilson/wp-content/themes/bootstrap-basic/img/aboutMePage/PMILogo_reg.jpg" alt="Precept Logo"></div>
-          <p>​In August 2015 I accepted a job at my current employer, Precept Ministries International, as their ERP & CRM administrator. At Precept I took ownership over their NetSuite instance supporting over 70 end users.</p>
+          <p>​In August 2015 I accepted a job at my current employer, Precept Ministries International, as their ERP & CRM Administrator. At Precept I took ownership over their NetSuite instance supporting over 70 end users.</p>
           <p>​In 2016 Precept decided to move its CRM & Marketing functions over to Salesforce. I worked on a team to implement Salesforce as well as develop the integrations which would allow data to flow between our new CRM system and NetSuite. I received my Salesforce certifications and now perform admin and development duties across both our CRM and ERP systems.</p>
           <p>​I get to work with several APIs to develop custom solutions using Salesforce's APEX programming language as well as NetSuite's SuiteScript. I have also built web apps using Node and Azure's PaaS. To date, I have written over fifty custom scripts and maintain many more that were written by vendors.</p>
          </div>
@@ -133,12 +133,12 @@
       .setClassToggle('.aboutMePics', 'fade-in')
       .addTo(controller);
 
-      // build a scene
-      var ourScene = new ScrollMagic.Scene({
-        triggerElement: '.loveWhatIDoWrapper'
-      })
-      .setClassToggle('#giphyme', 'fade-in')
-      .addTo(controller);
+      // // build a scene
+      // var ourScene = new ScrollMagic.Scene({
+      //   triggerElement: '.loveWhatIDoWrapper'
+      // })
+      // .setClassToggle('#giphyme', 'fade-in')
+      // .addTo(controller);
 
       // build a scene
       var pinBackgroundImages = new ScrollMagic.Scene({
