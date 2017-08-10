@@ -30,7 +30,7 @@
                I <span style="color:#DB250F;" class="glyphicon glyphicon-heart animated infinite pulse" aria-hidden="true"></span> what I do!
             </h1>
 
-            <div id = "giphyme" class="img-responsive img-thumbnail giphyMeAnimate"></div>
+            <div id = "giphyme" class="img-responsive img-thumbnail"></div>
 
          </div>
       </div>
